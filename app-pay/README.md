@@ -4,26 +4,6 @@
 
 > Hotmart is the most comprehensive platform for those who wish to create a digital business.
 
-# **WorkShop Rocketseat**
 
 ## Getting Started
-
-Clone repository:
-
-```sh
-git clone https://github.com/Hotmart-Org/workshop-react-webcomponents
-```
-Install npm packages:
-
-```sh
-npm install
-```
-
-## Running
-
-```sh
-npm start
-```
-
-* Open [http://localhost:8080](http://localhost:8080)
-* Have fun coding!
+[Follow the instructions](../)
