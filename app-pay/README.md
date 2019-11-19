@@ -6,4 +6,4 @@
 
 
 ## Getting Started
-[Follow the instructions](../)
+[Follow the instructions](https://github.com/Hotmart-Org/workshop-react-webcomponents)
