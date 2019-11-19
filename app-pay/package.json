@@ -1,0 +1,33 @@
+{
+  "name": "@hotmart/databox-app",
+  "version": "1.0.1",
+  "main": "./build/bundle.js",
+  "dependencies": {
+    "@babel/runtime": "7.7.2",
+    "@material-ui/core": "^4.6.0",
+    "@material/mwc-button": "^0.10.0",
+    "@material/mwc-dialog": "^0.10.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --config config/webpack/webpack.development.js --host 0.0.0.0 --port 8080",
+    "build": "NODE_ENV=production webpack --config config/webpack/webpack.production.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/parser": "7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  }
+}

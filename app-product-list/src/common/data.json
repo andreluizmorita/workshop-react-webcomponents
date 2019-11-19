@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Generic Steel Pants",
+    "price": "988.00",
+    "category": "Gloves"
+  },
+  {
+    "id": "2",
+    "name": "Tasty Metal Bike",
+    "price": "616.00",
+    "category": "Chair"
+  },
+  {
+    "id": "3",
+    "name": "Incredible Wooden Towels",
+    "price": "939.00",
+    "category": "Soap"
+  },
+  {
+    "id": "4",
+    "name": "Practical Frozen Pants",
+    "price": "301.00",
+    "category": "Pizza"
+  },
+  {
+    "id": "5",
+    "name": "Licensed Granite Chicken",
+    "price": "217.00",
+    "category": "Gloves"
+  },
+  {
+    "id": "6",
+    "name": "Incredible Fresh Car",
+    "price": "762.00",
+    "category": "Pizza"
+  },
+  {
+    "id": "7",
+    "name": "Incredible Plastic Car",
+    "price": "2.00",
+    "category": "Gloves"
+  },
+  {
+    "id": "8",
+    "name": "Licensed Frozen Ball",
+    "price": "956.00",
+    "category": "Table"
+  },
+  {
+    "id": "9",
+    "name": "Practical Granite Hat",
+    "price": "184.00",
+    "category": "Pizza"
+  },
+  {
+    "id": "10",
+    "name": "Awesome Concrete Pizza",
+    "price": "245.00",
+    "category": "Soap"
+  }
+]
