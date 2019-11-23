@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Fragment } from 'react';
 import Events from 'common/events';
 import '@material/mwc-button';
+
+import styles from './styles.css';
 
 function PayButton(props) {
   const [purchasedState, setPurchasedState] = useState('idle');
@@ -29,14 +31,17 @@ function PayButton(props) {
   }
 
   return (
-    <mwc-button
-      dense
-      unelevated
-      onClick={!isPurchased ? onClick : undefined}
-      style={isPurchased ? {'--mdc-theme-primary': '#4caf50'} : {}}>
+    <Fragment>
+      <style>{styles.toString()}</style>
+      <mwc-button
+        dense
+        unelevated
+        onClick={!isPurchased ? onClick : undefined}
+        class={isPurchased ? 'button-purchased' : ''}>
 
-      {props.text}
-    </mwc-button>
+        {props.text}
+      </mwc-button>
+    </Fragment>
   );
 }
 

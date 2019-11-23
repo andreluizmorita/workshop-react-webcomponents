@@ -34,29 +34,5 @@
     "name": "Incredible Fresh Car",
     "price": "762.00",
     "category": "Pizza"
-  },
-  {
-    "id": "7",
-    "name": "Incredible Plastic Car",
-    "price": "2.00",
-    "category": "Gloves"
-  },
-  {
-    "id": "8",
-    "name": "Licensed Frozen Ball",
-    "price": "956.00",
-    "category": "Table"
-  },
-  {
-    "id": "9",
-    "name": "Practical Granite Hat",
-    "price": "184.00",
-    "category": "Pizza"
-  },
-  {
-    "id": "10",
-    "name": "Awesome Concrete Pizza",
-    "price": "245.00",
-    "category": "Soap"
   }
 ]
