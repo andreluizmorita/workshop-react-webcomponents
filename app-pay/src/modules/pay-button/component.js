@@ -12,10 +12,8 @@ function PayButton(props) {
     Events.subscribe('payment:product-purchased', onPurchased);
 
     return () => {
-      Events.unsubscribe('payment:fetching');
-      Events.unsubscribe('payment:complete');
-      Events.unsubscribe('payment:failure');
-    }
+      Events.unsubscribe('payment:product-purchased');
+    };
   }, []);
 
   function onPurchased(e) {
